@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllMessage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="对应的具体情况"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="@color/baise"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对应的金额:"
+            android:padding="8dp"
+            android:background="@color/qianhuang"
+            android:layout_marginRight="5dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/jine5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入收入的金额"
+            android:inputType="number"
+            android:lines="2"
+            android:padding="8dp"
+            android:background="@color/baise"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/neirong5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入收入的相关内容"
+        android:lines="8"
+        android:padding="8dp"
+        android:background="@color/baise"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择日期:"
+            android:padding="8dp"
+            android:background="@color/baise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/data5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/qianhuang"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择时间:"
+            android:padding="8dp"
+            android:background="@color/baise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/time5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qianhuang"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账单类别"
+        android:background="@color/chengse"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/choice5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/qianhuang"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:text="收出"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/kind5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/qianhuang"
+        android:padding="8dp"
+        android:layout_gravity="center_horizontal"
+        android:text="类型"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp" />
+
+</LinearLayout>

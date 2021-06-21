@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/texnum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加支出小账单"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="@color/baise"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对应的金额:"
+            android:padding="8dp"
+            android:background="@color/qianhuang"
+            android:layout_marginRight="5dp"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/jine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入支出的金额"
+            android:inputType="number"
+            android:lines="2"
+            android:padding="8dp"
+            android:background="@color/baise"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/neirong1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入支出的相关内容"
+        android:lines="8"
+        android:padding="8dp"
+        android:background="@color/baise"
+        android:layout_marginBottom="10dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择日期:"
+            android:padding="8dp"
+            android:background="@color/baise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@color/qianhuang"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择时间:"
+            android:padding="8dp"
+            android:background="@color/baise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qianhuang"
+            android:padding="8dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="支出类别"
+        android:background="@color/chengse"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kind1"
+        android:orientation="horizontal"
+        android:textSize="30sp">
+        <RadioButton
+            android:id="@+id/radBtnAgeRange1"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/wen1"/>
+        <RadioButton
+            android:id="@+id/radBtnAgeRange2"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/wen2"/>
+        <RadioButton
+            android:id="@+id/radBtnAgeRange3"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/wen3"/>
+        <RadioButton
+            android:id="@+id/radBtnAgeRange4"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/wen4"/>
+    </RadioGroup>
+    <LinearLayout
+        android:id="@+id/wenbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/wenbut1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:background="#87CEFA"
+            android:layout_marginLeft="50dp"
+            />
+        <Button
+            android:id="@+id/wenbut2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确认"
+            android:background="#87CEFA"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+</LinearLayout>

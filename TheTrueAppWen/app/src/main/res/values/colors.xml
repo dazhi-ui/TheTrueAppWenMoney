@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="lanse">#0000FF</color>
+    <color name="danlan">#87CEFA</color>
+    <color name="qianhuang">#FFFFE0</color>
+    <color name="chengse">#FFA500</color>
+    <color name="baiyan">#F5F5F5</color>
+    <color name="huise">#808080</color>
+    <color name="baise">#FFFFFF</color>
+    <color name="qianhui">#D3D3D3</color>
+</resources>

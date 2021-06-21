@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registe">
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/reg_number12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="新密码:"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_alignBottom="@id/reg_number12"
+        android:layout_toRightOf="@+id/reg_number12"
+        android:id="@+id/mima111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/mima222"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_number12"
+        android:padding="10dp"
+        android:text="新密码:"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_alignBottom="@id/mima222"
+        android:layout_toRightOf="@+id/mima222"
+        android:id="@+id/mima333"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:background="#74e674"
+        android:id="@+id/buttonreg22"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/mima222"
+        android:layout_marginLeft="80dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认修改"
+        android:background="#f27758"
+        android:id="@+id/buttonreg11"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/mima222"
+        android:layout_marginLeft="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="密码修改"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        />
+</RelativeLayout>

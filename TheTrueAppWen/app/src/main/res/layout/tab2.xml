@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/qianhui"
+    tools:context=".FrdFragment">
+
+    <TextView
+        android:id="@+id/wenwen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+    android:text="粉红色表示支出项目"
+        android:layout_marginTop="10dp"
+    android:textSize="15dp"
+    android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/wenwen"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:text="绿色表示收入项目"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"/>
+    <ListView
+        android:layout_below="@+id/wenwen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"/>
+</RelativeLayout>
+

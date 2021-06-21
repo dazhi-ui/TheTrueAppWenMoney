@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheTrueAppWen</string>
+    <string name="wen1">食品</string>
+    <string name="wen2">衣物</string>
+    <string name="wen3">出行</string>
+    <string name="wen4">其他</string>
+    <string name="wen5">金额类别</string>
+</resources>

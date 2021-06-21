@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <TextView
+        android:layout_marginTop="60dp"
+        android:id="@+id/reg_number12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="账 号:"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_alignBottom="@id/reg_number12"
+        android:layout_toRightOf="@+id/reg_number12"
+        android:id="@+id/reg_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/reg_number22"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_number12"
+        android:padding="10dp"
+        android:text="密码:"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_alignBottom="@id/reg_number22"
+        android:layout_toRightOf="@+id/reg_number22"
+        android:id="@+id/reg_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+    <TextView
+        android:id="@+id/reg_number32"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_number22"
+        android:padding="10dp"
+        android:text="密码:"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_alignBottom="@id/reg_number32"
+        android:layout_toRightOf="@+id/reg_number32"
+        android:id="@+id/reg_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/yanzheng1"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_number32"
+        android:padding="10dp"
+        android:text="验证码:"
+        android:textColor="#000"
+        android:textSize="20dp" />
+    <EditText
+        android:layout_alignBottom="@id/yanzheng1"
+        android:layout_toRightOf="@+id/yanzheng1"
+        android:id="@+id/yanzheng2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" />
+    <ImageView
+        android:layout_width="320px"
+        android:layout_height="110px"
+        android:layout_marginTop="0dp"
+        android:layout_alignRight="@id/reg_password2"
+        android:layout_below="@+id/reg_password2"
+        android:id="@+id/yanzheng3"
+        android:scaleType="fitXY"
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定注册"
+        android:background="#74e674"
+        android:id="@+id/register2"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/yanzheng2"
+        android:layout_marginLeft="90dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回登录"
+        android:background="#f27758"
+        android:id="@+id/login2"
+        android:layout_alignBottom="@id/register2"
+        android:layout_toRightOf="@id/register2"
+
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="账号注册"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:layout_below="@id/reg_password2"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="150dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher_round" />
+    <Button
+        android:id="@+id/choose_from_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/picture"
+        android:layout_marginLeft="150dp"
+        android:background="@color/danlan"
+        android:layout_marginTop="50dp"
+        android:text="选择头像" />
+</RelativeLayout>
